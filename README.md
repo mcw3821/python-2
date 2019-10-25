@@ -84,4 +84,50 @@ F5 누르고
 강수량을 입력하세요:80
 우비를 입으세요
 >>> 
+score =int(input("수 입력:"))
 
+if score >=0 :
+    if score==0:
+        print("0이다.")
+    else:
+        print("양수다.")
+else:
+    print("음수야.")
+           
+==================== RESTART: C:/Users/pc/Desktop/ㅎㅎㅎㅎ.py ====================
+수 입력:6
+양수다.
+>>> 
+==================== RESTART: C:/Users/pc/Desktop/ㅎㅎㅎㅎ.py ====================
+수 입력:-2
+음수야.
+>>> 
+==================== RESTART: C:/Users/pc/Desktop/ㅎㅎㅎㅎ.py ====================0
+수 입력:0
+0이다.
+
+users=['choi','lee','kim']
+
+id = input('아이디:') 
+if id in users:
+    pw=input('암호:')
+    if pw=='1111':
+        print("사용자 맞음")
+    else :
+       print(" 암호 틀림")
+else :
+    print("입력된 사용자가 아님")
+
+==================== RESTART: C:/Users/pc/Desktop/999.py ====================
+아이디:choi
+암호:1111
+사용자 맞음
+>>> 
+==================== RESTART: C:/Users/pc/Desktop/999.py ====================
+아이디:lee
+암호:5666
+ 암호 틀림
+>>> 
+==================== RESTART: C:/Users/pc/Desktop/999.py ====================
+아이디:bang
+입력된 사용자가 아님
